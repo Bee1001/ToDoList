@@ -1,0 +1,32 @@
+.search-container {
+    margin: 10px 0;
+    flex-grow: 2;
+    text-align: left;
+}
+.search-form {
+    position: relative;
+}
+.search {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: solid 2px #d3c0f9;
+    border-radius: 5px;
+    width: 95%;
+    color: #4a525f;
+}
+.btn-search {
+    position: absolute;
+    right: 45px;
+    top: 2px;
+    padding: 13px 15px;
+    margin: 0 10px;
+    color: #d3c0f9;
+    background: none;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
+::placeholder {
+    color: #d3c0f9;
+  }

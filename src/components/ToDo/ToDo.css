@@ -1,0 +1,40 @@
+.todo-box {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    color: #4a525f;
+    padding: 10px 0;
+    margin: 15px 0;
+    /* border-bottom: solid 1px rgba(0 0 0 / 5%); */
+    border-radius: 10px;
+    background: #f6f4f8;
+}
+.todo-box div {
+    padding: 0 20px;
+}
+.todo-index {
+    background: #d3c0f9;
+    border-radius: 50%;
+    padding: 10px 15px!important;
+    margin: 0 15px;
+}
+.todo-content {
+    flex-grow: 3;
+    text-align: left;
+}
+.todo-level {
+    background: lightskyblue;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    color: white;
+}
+.btn-delete {
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: tomato;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
